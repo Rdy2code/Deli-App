@@ -1,5 +1,5 @@
 # Sandwich Club Project Starter Code
-
+Completed 10-31-18 (LW)
 ## Project Overview
 In this project, you will complete the **Sandwich Club** app to
 show the details of each sandwich once it is selected.
