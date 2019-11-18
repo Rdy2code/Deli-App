@@ -1,18 +1,21 @@
+# DeliApp
 
-Completed 10-31-18 (LW)
+An Android application that describes how to make a variety of different sandwiches from around the world. The user can scroll through a list of sandwiches on a first screen, select one that is of interest, and then view the details and a picture of that sandwich on a second screen.
 
-Building a layout and populating its fields from data received as JSON
-is a common task for Android Developers. Although JSON parsing is usually
-done using libraries, writing the JSON parsing for  this project will
-help you to better understand how it is processed.
+## Installation
+ 1. Fork the repository to your account.
+ 2. Clone the repository to your machine
+ 3. Open the repository in Android Studio.
+ 4. Using Android Studio, build and deploy the app to your device.
 
-## What Will I Learn?
-Through this project, you will:
-- Learn how to submit projects for review
-- Practice JSON parsing to a model object
-- Design an activity layout
-- Populate all fields in the layout accordingly
+## Contributing
 
-Design the layout for the detail activity so the different elements
-display in a sensible way. Implement the JSON parsing in JsonUtils so it
-produces an Object that can be used to populate the UI that you designed.
+Contributions to the code or the documentation are welcome. To contribute:
+1. Fork the master branch of the repository.
+2. Clone the repository and create your own topic branch.
+3. Implement your changes.
+4. Add, commit, and push your changes to your repository account.
+5. Submit a pull request.
+
+## License
+MIT
