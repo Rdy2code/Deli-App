@@ -18,4 +18,4 @@ Contributions to the code or the documentation are welcome. To contribute:
 5. Submit a pull request.
 
 ## License
-MIT
+[MIT](Deli-App/LICENSE)
