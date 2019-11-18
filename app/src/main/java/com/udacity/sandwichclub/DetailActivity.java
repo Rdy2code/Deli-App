@@ -59,7 +59,7 @@ public class DetailActivity extends AppCompatActivity {
         //Log message for testing purposes only
         Log.v("Image url", sandwich.getImage());
 
-        Picasso.with(this)
+        Picasso.get()
                 .load(sandwich.getImage())
                 .error(R.mipmap.ic_launcher_round)
                 .into(ingredientsIv, new Callback() {
@@ -70,7 +70,7 @@ public class DetailActivity extends AppCompatActivity {
                     }
 
                     @Override
-                    public void onError() {
+                    public void onError(Exception e) {
                         progressBar.setVisibility(View.GONE);
                         Toast.makeText(getApplicationContext(),
                                 R.string.network_error,
